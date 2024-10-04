@@ -6,10 +6,15 @@
         xmlns:local="clr-namespace:taak_1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
-        Background="LightGray">
+        Background="LightGray"
+        Name="mainWindow">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="110,62,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top"/>
         <Image Margin="681,10,24,334" Source="/PXL.png" Stretch="Fill"/>
+        <Image Name="green" Margin="147,248,528,105" Source="/Groen.png" Stretch="Fill" MouseEnter="green_MouseEnter" MouseLeave="green_MouseLeave" />
+        <Image Name="red" Margin="147,139,528,214" Source="/Rood.png" Stretch="Fill" MouseEnter="red_MouseEnter" MouseLeave="red_MouseLeave"/>
+        <Image Name="yellow" Margin="347,139,315,217" Source="/Geel.png" Stretch="Fill" MouseEnter="yellow_MouseEnter" MouseLeave="yellow_MouseLeave"   />
+        <Image Name="blue" Margin="360,251,315,105" Source="/Blauw.png" Stretch="Fill" MouseEnter="blue_MouseEnter" MouseLeave="blue_MouseLeave"/>
 
     </Grid>
 </Window>

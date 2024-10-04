@@ -64,5 +64,25 @@ namespace taak_1
         {
             mainWindow.Background = Brushes.LightGray;
         }
+
+        private void green_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+           kleurCode.Text = "#008000".ToString();
+        }
+
+        private void red_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurCode.Text = "#FF0000".ToString();
+        }
+
+        private void yellow_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurCode.Text = "#FFFF00".ToString();
+        }
+
+        private void blue_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurCode.Text = "#0000FF".ToString();
+        }
     }
 }

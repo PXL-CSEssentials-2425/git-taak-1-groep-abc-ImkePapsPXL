@@ -68,21 +68,25 @@ namespace taak_1
         private void green_MouseDown(object sender, MouseButtonEventArgs e)
         {
            kleurCode.Text = "#008000".ToString();
+            informatie.Text = "Groen is de kleur van genezing".ToString();
         }
 
         private void red_MouseDown(object sender, MouseButtonEventArgs e)
         {
             kleurCode.Text = "#FF0000".ToString();
+            informatie.Text = "Rood is de kleur van warmte".ToString();
         }
 
         private void yellow_MouseDown(object sender, MouseButtonEventArgs e)
         {
             kleurCode.Text = "#FFFF00".ToString();
+            informatie.Text = "Geel is de kleur van levenslust".ToString();
         }
 
         private void blue_MouseDown(object sender, MouseButtonEventArgs e)
         {
             kleurCode.Text = "#0000FF".ToString();
+            informatie.Text = "Blauw is de kleur van intelligentie".ToString();
         }
     }
 }
